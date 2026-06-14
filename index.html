@@ -134,6 +134,11 @@ nav.scrolled{background:rgba(17,16,14,.86);backdrop-filter:blur(20px) saturate(1
 .work-body{padding:28px 30px;display:flex;flex-direction:column;flex-grow:1}
 .work-card.wide .work-body{justify-content:center;padding:44px}
 .work-cat{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--brass);margin-bottom:12px}
+.wtag{display:inline-flex;align-items:center;gap:7px;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;padding:5px 11px;border-radius:100px;margin-bottom:16px;align-self:flex-start;width:fit-content}
+.wtag.live{color:var(--sage);border:1px solid rgba(124,132,102,.45)}
+.wtag.live::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--sage);box-shadow:0 0 0 3px rgba(124,132,102,.18)}
+.wtag.concept{color:var(--brass);border:1px solid rgba(201,161,74,.42)}
+.wtag.concept::before{content:'✎';font-size:10px}
 .work-card h3{font-family:var(--serif);font-size:clamp(24px,2.4vw,32px);font-weight:500;margin-bottom:10px}
 .work-card p{font-size:14.5px;color:var(--muted);line-height:1.65;flex-grow:1;margin-bottom:18px}
 .work-link{display:inline-flex;align-items:center;gap:9px;font-size:13px;letter-spacing:.03em;color:var(--terra-bright);border-top:1px solid var(--line);padding-top:16px;transition:gap .3s}
@@ -349,7 +354,7 @@ footer{border-top:1px solid var(--line);padding:64px 0 40px;background:var(--bg)
     <div class="sec-head reveal">
       <span class="eyebrow">01 — The Work</span>
       <h2 class="serif">Real businesses. <em>Live sites.</em> Click any of them.</h2>
-      <p>These aren't templates or mockups. Every one is a real brand we built end to end — website, logo, color, type, the whole identity. Open them, click around, look at them on your phone.</p>
+      <p>Real client brands — live and online right now — alongside fresh concept builds we design to show range across industries. None of it is a template. Open any of them, click around, pull them up on your phone.</p>
     </div>
 
     <div class="work-grid">
@@ -357,6 +362,7 @@ footer{border-top:1px solid var(--line);padding:64px 0 40px;background:var(--bg)
         <div class="work-grid-inner">
           <div class="work-shot"><img src="assets/work/scs.png" alt="SCS AI website" /></div>
           <div class="work-body">
+<span class="wtag live">Live site · Flagship</span>
             <div class="work-cat">SaaS Platform · Product</div>
             <h3>SCS AI</h3>
             <p>A full multi-page product platform — landing, pricing, live dashboard, onboarding. Custom design system, motion, the works. This is the ceiling of what we build.</p>
@@ -368,6 +374,7 @@ footer{border-top:1px solid var(--line);padding:64px 0 40px;background:var(--bg)
       <a class="work-card reveal" href="https://shepoursitup.com" target="_blank" rel="noopener">
         <div class="work-shot"><img src="assets/work/shepours.png" alt="She Pours It Up website" /></div>
         <div class="work-body">
+<span class="wtag live">Live site</span>
           <div class="work-cat">Event Services · Hospitality</div>
           <h3>She Pours It Up</h3>
           <p>A mobile-bar brand for LA weddings and events. Editorial dark-and-gold identity, full booking flow, packages, gallery, schema-rich SEO. Looks like a brand twice its size.</p>
@@ -378,6 +385,7 @@ footer{border-top:1px solid var(--line);padding:64px 0 40px;background:var(--bg)
       <a class="work-card reveal" href="https://coliseummotorgroup.com" target="_blank" rel="noopener">
         <div class="work-shot"><img src="assets/work/coliseum.png" alt="Coliseum Motor Group website" /></div>
         <div class="work-body">
+<span class="wtag live">Live site</span>
           <div class="work-cat">Auto Dealer · Retail</div>
           <h3>Coliseum Motor Group</h3>
           <p>A Van Nuys dealership built to look national. Bold locked brand system, inventory, financing, an auction-sourcing service line, video hero. Fast, and built to scale.</p>
@@ -388,10 +396,11 @@ footer{border-top:1px solid var(--line);padding:64px 0 40px;background:var(--bg)
       <a class="work-card reveal" href="work/fitlife/index.html" target="_blank" rel="noopener">
         <div class="work-shot"><img src="assets/work/fitlife.png" alt="FitLife Daily landing page" /></div>
         <div class="work-body">
+<span class="wtag concept">Concept</span>
           <div class="work-cat">Fitness · Lead-Gen Landing</div>
           <h3>FitLife Daily</h3>
-          <p>A conversion-first landing page built to capture emails and sell a challenge. Punchy, modern, and engineered around a single action: sign up.</p>
-          <span class="work-link">Open the page <span class="url">demo</span> →</span>
+          <p>A concept build for a fitness brand — a conversion-first landing page engineered around one action: sign up. Segmentation, modal capture, sticky CTA. Proof we build to convert, not just to look good.</p>
+          <span class="work-link">Open the concept <span class="url">preview</span> →</span>
         </div>
       </a>
     </div>
