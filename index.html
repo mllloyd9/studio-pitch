@@ -176,7 +176,9 @@ nav.scrolled{background:rgba(17,16,14,.86);backdrop-filter:blur(20px) saturate(1
 .bf-item:hover{border-color:var(--line-strong);transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(0,0,0,.7)}
 .bf-item img{width:100%;height:100%;object-fit:cover}
 .bf-note{margin-top:32px;font-family:var(--serif);font-style:italic;font-size:18px;color:var(--muted)}
-.bf-item{position:relative;cursor:zoom-in}
+.bf-item{position:relative;cursor:zoom-in;aspect-ratio:4/3}
+.bf-gallery .bf-item img{object-fit:contain;background:#0c0b09}
+.bf-label{position:absolute;bottom:10px;left:11px;z-index:2;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--cream);background:rgba(17,16,14,.72);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);padding:4px 9px;border-radius:100px}
 .bf-item::after{content:'';position:absolute;inset:0;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='168' height='104'%3E%3Ctext x='8' y='66' font-family='Inter,Arial,sans-serif' font-size='19' font-weight='600' fill='%23faf6f0' fill-opacity='0.34' transform='rotate(-27 84 52)'%3Escs.ai%3C/text%3E%3C/svg%3E");background-repeat:repeat;mix-blend-mode:soft-light}
 .bf-item::before{content:'\2922';position:absolute;bottom:11px;right:12px;z-index:2;width:30px;height:30px;border-radius:50%;background:rgba(17,16,14,.74);color:var(--cream);display:flex;align-items:center;justify-content:center;font-size:15px;opacity:0;transition:opacity .3s;pointer-events:none}
 .bf-item:hover::before{opacity:1}
@@ -498,19 +500,19 @@ footer{border-top:1px solid var(--line);padding:64px 0 40px;background:var(--bg)
 <section class="brandfile">
   <div class="container">
     <div class="sec-head reveal">
-      <span class="eyebrow">04 — Your Brand, As A File You Own</span>
+      <span class="eyebrow">04 — Brand &amp; Identity Work</span>
       <h2 class="serif">You don't rent the brand. You <em>own the book.</em></h2>
-      <p>Every client gets a complete, <strong>print-ready</strong> brand book — logo usage, color, type, stationery, and source files — laid out like a real design house delivers it. This is an actual book we produced. Tap any page to look closer.</p>
+      <p>Every client gets a complete, <strong>print-ready</strong> identity — logo, color, type, stationery, the whole book. Here's real brand work across a few of them. Tap any to look closer.</p>
     </div>
     <div class="bf-gallery reveal">
-      <div class="bf-item"><img src="assets/brand/scs-07.png" alt="SCS AI logo mark &amp; tagline" loading="lazy" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-08.png" alt="SCS AI letterhead — print-ready" loading="lazy" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-01.png" alt="Brand guide page" loading="lazy" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-02.png" alt="Brand guide page" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-03.png" alt="Brand guide page" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-04.png" alt="Brand guide page" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-05.png" alt="Brand guide page" /></div>
-      <div class="bf-item"><img src="assets/brand/scs-06.png" alt="Brand guide page" /></div>
+      <div class="bf-item"><img src="assets/brand/coliseum-01.png" alt="Coliseum Motor Group — logo system" loading="lazy" /><span class="bf-label">Coliseum Motor Group</span></div>
+      <div class="bf-item"><img src="assets/brand/scs-07.png" alt="SCS AI — logo mark &amp; tagline" loading="lazy" /><span class="bf-label">SCS AI</span></div>
+      <div class="bf-item"><img src="assets/brand/bloom-01.webp" alt="Bloom &amp; Brew — brand applied to site" loading="lazy" /><span class="bf-label">Bloom &amp; Brew</span></div>
+      <div class="bf-item"><img src="assets/brand/coliseum-02.png" alt="Coliseum Motor Group — brand essence" loading="lazy" /><span class="bf-label">Coliseum Motor Group</span></div>
+      <div class="bf-item"><img src="assets/brand/scs-08.png" alt="SCS AI — letterhead" loading="lazy" /><span class="bf-label">SCS AI</span></div>
+      <div class="bf-item"><img src="assets/brand/coliseum-03.png" alt="Coliseum Motor Group — tagline system" loading="lazy" /><span class="bf-label">Coliseum Motor Group</span></div>
+      <div class="bf-item"><img src="assets/brand/scs-03.png" alt="SCS AI — brand book spread" loading="lazy" /><span class="bf-label">SCS AI</span></div>
+      <div class="bf-item"><img src="assets/brand/scs-05.png" alt="SCS AI — brand book spread" loading="lazy" /><span class="bf-label">SCS AI</span></div>
     </div>
     <p class="bf-note reveal">A complete, organized identity — yours to keep forever. Samples shown watermarked; finished files ship clean and print-ready.</p>
   </div>
